@@ -9,13 +9,13 @@ AIをレビュアー・課題出し役として使い、自分の思考を鍛え
 
 ## 記事
 
-> 人間のメンターなしでポートフォリオを進めるためにChatGPT Projectsで作った仕組み（公開後にURLを追記します）
+[ChatGPT ProjectsでAIを“継続メンター化”するために作った仕組み](https://qiita.com/n-yoshida-dev/items/064adc2858ddf40c4b4f)
 
 ## ファイル一覧
 
 | ファイル | 役割 |
 |---|---|
-| `00_SystemPrompt_ProjectInstructions.md` | ChatGPT Projectに直接設定するSystem Prompt（CLAUDE.mdに相当） |
+| `00_SystemPrompt_ProjectInstructions.md` | ChatGPT Projectに直接設定するSystem Prompt |
 | `01_テーマ別指導方針.md` | DB/API/コーディング/テスト/用語ごとの指導ルール辞書 |
 | `02_相談テンプレート.md` | 壁打ち時の入力フォーマット。チャット冒頭と引き継ぎ時に使う |
 | `03_レビュー観点チェックリスト.md` | レビュー依頼時にAIが参照する観点一覧 |
@@ -25,11 +25,8 @@ AIをレビュアー・課題出し役として使い、自分の思考を鍛え
 
 ## 使い方
 
-1. `00_SystemPrompt_ProjectInstructions.md` の内容をChatGPT Projectsの「Instructions」に設定する
-2. 残りのファイルをChatGPT Projectsの「Files」に登録する
-3. `04` と `05` は自分のロードマップに合わせて書き換える
-4. `02_相談テンプレート.md` を使って壁打ちを始める
-5. 目的単位のチャットが一段落したら、`学習ログ.md` のフォーマットでAIに学習ログを作らせ、Googleドキュメントへ反映する
+[ChatGPT ProjectsでAIを“継続メンター化”するために作った仕組み](https://qiita.com/n-yoshida-dev/items/064adc2858ddf40c4b4f)
+を参照して下さい。
 
 ## 注意事項
 
